@@ -1,0 +1,85 @@
+[
+  {
+    "ContainingType": "CodingProblemsAPI.Controllers.ProblemSolverController",
+    "Method": "SolveBalancedBrackets",
+    "RelativePath": "api/ProblemSolver/balancedbracket",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "brackets",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CodingProblemsAPI.Controllers.ProblemSolverController",
+    "Method": "SolveSingleNumber",
+    "RelativePath": "api/ProblemSolver/singlenumber",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "array",
+        "Type": "System.Int32[]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CodingProblemsAPI.Controllers.ProblemSolverController",
+    "Method": "SolveTwoSum",
+    "RelativePath": "api/ProblemSolver/twosum",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "array",
+        "Type": "System.Int32[]",
+        "IsRequired": true
+      },
+      {
+        "Name": "target",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
